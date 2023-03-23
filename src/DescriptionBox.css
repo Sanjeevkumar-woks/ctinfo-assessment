@@ -1,0 +1,13 @@
+.description-button {
+  display: flex;
+  justify-content: space-around;
+}
+.btn {
+  background-color: #ffff;
+  border: none;
+  font-weight: bolder;
+  font-size: large;
+}
+.description {
+  text-align:justify;
+}

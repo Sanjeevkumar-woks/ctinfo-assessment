@@ -1,0 +1,100 @@
+body {
+  font-family: Roboto Regular, 15px;
+  background-color: #ffffff;
+}
+h1 {
+  font-family: Roboto Black, 50px;
+}
+h2 {
+  font-family: Roboto Medium, 18px;
+}
+.blog-btn {
+  background-color: #8cc928;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 5px 20px;
+}
+
+.blog-container {
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.blog-title {
+  margin-left: 170px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blog-table-container {
+  max-width: 100%;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-table {
+  border-collapse: collapse;
+  width: 70%;
+}
+
+th {
+  background-color: #f3f3f3;
+}
+table,
+thead {
+  border: 1px solid #ddd;
+  font-size: small;
+}
+.blog-table th,
+.blog-table td {
+  padding: 5px;
+  text-align: left;
+}
+
+.blog-table th {
+  font-weight: bold;
+  text-align: left;
+}
+
+.blog-cover-image {
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.date {
+  color: #979fa0;
+}
+.title {
+  color: #009be9;
+  font-weight: 600;
+  cursor: pointer;
+}
+.description-box-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(95, 94, 94, 0.5);
+}
+.blog-description-box {
+  background-color: #ffff;
+  margin: 20% 35%;
+  padding: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .blog-title {
+    margin-left: 70px;
+  }
+}
